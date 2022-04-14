@@ -1,0 +1,54 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box; 
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  float: left;
+  width: 50%
+}
+
+div{
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 0 0 0 5em
+}
+
+button{
+  height: 20%;
+  width: 25%;
+}
+
+section.button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10em 0;
+}
+
+button.goBack{
+  height: 20%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.hidden{
+  display: none;
+}
+
+button.hidden{
+  display: none;
+}
