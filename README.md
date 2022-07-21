@@ -3,28 +3,24 @@ Daily poetry generator and vibe check in dedication to william carlos williams. 
 
 https://ronaldconn.github.io/Ode-to-WCW-poetry-generator/
 
-![gif of poetry generator working](https://ronaldconn.github.io/Ode-to-WCW-poetry-generator/WCWPoetryGenerator.gif)
+![gif of poetry generator in action](https://ronaldconn.github.io/Ode-to-WCW-poetry-generator/WCWPoetryGenerator.gif)
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+Utilizing a poetry database api as well as a photo database api, I created a simple motivation tool to bolster mood and creativity on off-days. The JS script pulls data at random from each database and renders them in the browswer. There are several hundred different poems and images so a repeat display is very unlikely. In honor of my favorite poet, [William Carlos Williams](https://poets.org/poet/william-carlos-williams).
+
+API's used:
+
+https://poetrydb.org/
+https://picsum.photos/
 
 ## Optimizations
 *(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+Ideally this app would have a more streamlined GUI. As it is, it works to get you a poem and a "feeling" quickly. I plan to add animateions and possible nature videos with sound to increase the ambiance.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
+This app challenges me to manipulate text with varying line breaks. Not every poem has the same length, structure, or layout. Therefore, the script had to be able to parse the poetry line by line at times in order to render it successfully on the page. This was of major importance to me because I did not want to change any of the peoms original layout as form arguable is extremley important to poetry. It was a fun puzzle nonetheless. I hope you enjoy my app. :)
