@@ -14,10 +14,10 @@ Utilizing a poetry database api as well as a photo database api, I created a sim
 API's used:
 
 https://poetrydb.org/
+
 https://picsum.photos/
 
 ## Optimizations
-*(optional)*
 
 Ideally this app would have a more streamlined GUI. As it is, it works to get you a poem and a "feeling" quickly. I plan to add animateions and possible nature videos with sound to increase the ambiance.
 
