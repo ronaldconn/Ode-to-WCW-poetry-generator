@@ -3,7 +3,7 @@ Daily poetry generator and vibe check in dedication to william carlos williams. 
 
 https://ronaldconn.github.io/Ode-to-WCW-poetry-generator/
 
-![alt tag](http://placecorgi.com/1200/650)
+![gif of poetry generator working](Ode-to-WCW-poetry-generator/WCWPoetryGenerator.gif)
 
 ## How It's Made:
 
